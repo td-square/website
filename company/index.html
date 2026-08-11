@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>О компании</title>
+    </head>
+    <body>
+        <style>
+            body {
+                visibility: hidden;
+            }
+        </style>
+        <header>
+            <div class="container nav-container">
+                <div class="logo">ТД <span>Квадрат</span></div>
+
+                <button class="menu-btn" id="menuBtn">☰</button>
+
+                <ul class="nav-links">
+                    <li><a data-home>На главную</a></li>
+                    <li><a href="#areas">Направления</a></li>
+                    <li><a href="#info">Реквизиты</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <aside class="sidebar" id="sidebar">
+            <button class="close-btn" id="closeBtn">×</button>
+
+            <nav>
+                <a data-home>На главную</a>
+                <a href="#areas">Направления</a>
+                <a href="#info">Реквизиты</a>
+            </nav>
+        </aside>
+
+        <section class="hero">
+            <div class="container">
+                <h1>О компании</h1>
+                <p>
+                    ЗАО «ТД квадрат» осуществляет деятельность в сфере
+                    управления и эксплуатации объектов коммерческой недвижимости
+                    в Минске.
+                </p>
+                <a href="info/" class="btn">Подробнее</a>
+            </div>
+        </section>
+
+        <section id="areas" class="section">
+            <div class="container">
+                <h2 class="section-title">Направления работы</h2>
+                <div class="grid">
+                    <div class="card">
+                        <h3>Аренда коммерческих помещений</h3>
+                        <p>
+                            Комфортные и современные помещения для размещения
+                            вашей команды. Готовы под ключ или под чистовую
+                            отделку.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Управление объектами недвижимости</h3>
+                        <p>
+                            Помещения с высоким пешеходным трафиком для
+                            успешного ритейла, шоурумов и сферы услуг.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3>Техническая эксплуатация зданий</h3>
+                        <p>
+                            Комплексная техническая эксплуатация, поддержание
+                            инфраструктуры и обслуживание коммерческих зданий.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="info" class="section">
+            <div class="container">
+                <h2 class="section-title">Основные сведения о компании</h2>
+                <div class="contact-info">
+                    <p>
+                        <strong>Полное наименование:</strong> Закрытое
+                        акционерное общество "ТД квадрат"
+                    </p>
+                    <p><strong>Дата регистрации:</strong> ...</p>
+                    <p>
+                        <strong>Основной вид деятельности:</strong> Управление
+                        недвижимым имуществом
+                    </p>
+                    <p><strong>Регион деятельности:</strong> г. Минск</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>
+                    &copy; 2026 ЗАО "ТД квадрат". Все права защищены. Информация
+                    носит справочный характер.
+                </p>
+            </div>
+        </footer>
+
+        <script type="module" src="/src/main.js"></script>
+        <script type="module" src="/src/burger.js"></script>
+        <script type="module" src="/src/captcha/textCaptcha.js"></script>
+    </body>
+</html>
