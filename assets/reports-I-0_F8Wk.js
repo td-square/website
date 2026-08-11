@@ -1,4 +1,4 @@
-import"./main-Pe0wewwP.js";var e=``;function t(){let e=document.createElement(`div`);e.id=`captcha-wrapper`,e.innerHTML=`
+import"./main-IPJdHBB0.js";var e=``;function t(){let e=document.createElement(`div`);e.id=`captcha-wrapper`,e.innerHTML=`
         <canvas id="captcha" width="260" height="100"></canvas>
 
         <br>

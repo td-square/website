@@ -1,1 +1,0 @@
-import"./main-Pe0wewwP.js";import"./burger-Bkt_oI8F.js";async function e(){for(;;){let e=``;for(let t=0;t<5;t++)e+=`ABCDEFGHJKLMNPQRSTUVWXYZ23456789`[Math.floor(Math.random()*32)];let t=prompt(`Введите код: ${e}`);if(t!==null){if(t.toUpperCase()===e){document.body.style.visibility=`visible`;return}alert(`Неверный код. Попробуйте еще раз.`)}}}e();
