@@ -38,6 +38,10 @@ header {
     z-index: 1000;
 }
 
+#captcha-wrapper {
+    padding-top: 100px;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
