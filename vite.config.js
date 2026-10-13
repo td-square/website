@@ -7,7 +7,7 @@ export default defineConfig({
         port: 5173,
     },
 
-    base: "/website/",
+    base: "/",
 
     build: {
         rollupOptions: {
